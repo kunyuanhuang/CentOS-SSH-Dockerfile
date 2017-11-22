@@ -23,7 +23,9 @@ To test, use the port that was just located:
 	# ssh -p xxxx user@localhost 
 
 Change root passwd
+```
 # docker exec -u 0 -it <containerName> bash
 passwd //changepasswd
+```
 
 
